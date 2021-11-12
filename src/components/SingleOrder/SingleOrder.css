@@ -1,0 +1,60 @@
+
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+.order_form{
+     padding: 0px 50px;
+}
+
+.order_form input,textarea{
+   display:flex;
+   flex-direction: column;
+   padding: 6px 10px;
+   width:450px;
+   margin: 10px 0px;
+   border: 1px solid #DDDEE2;
+   border-radius: 5px;
+}
+.order_form textarea{
+    padding: 12px 10px;
+    margin: 10px 0px;
+}
+#btn{
+    padding: 15px;
+    background-color:#ED8324;
+    color: #fff;
+}
+.title-sub{
+    padding: 30px 0px;
+    color: #ED8324;
+}
+.sidebar-content img{
+   width: 350px;
+   border-radius: 10px;
+}
+
+.sidebar{
+    padding-left: 120px;
+    margin-top: 80px;
+   
+}
+.review-title{
+ color: #ED8324;
+ padding: 20px 0px;
+}
+.sidebar-content{
+    background-color:#328B93;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.sidebar-content h5{
+     line-height: 3%;
+}
+.first-title{
+   padding-top:30px;
+   color: rgba(231, 231, 231, 0.952);
+}
