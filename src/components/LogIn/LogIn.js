@@ -67,8 +67,8 @@ const LogIn = () => {
              <NavLink style={{textDecoration:'none'}} to="/register" ><Button color="inherit">New user? Please Register</Button></NavLink>
               <Button type="submit" sx={{width: '75%',mt:2}} variant="contained">Log In</Button>
               {isLoading && <CircularProgress />}
-              {user?.email &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="success">This is a success alert — check it out!</Alert>}
-              {error &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="error">This is an error alert — check it out!</Alert>}
+              {user?.email &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="success">Login success</Alert>}
+              {error &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="error">somethin is wrong. please try again</Alert>}
            </form>
            
          </Grid>

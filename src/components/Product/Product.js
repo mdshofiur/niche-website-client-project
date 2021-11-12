@@ -44,7 +44,7 @@ const Product = () => {
         </CardContent>
         <CardActions>
            <h4 style={{marginLeft:30,color:'tomato'}}>${services.price}</h4>
-           <Link to={`/singleOrder/${services._id}`}>
+           <Link style={{textDecoration:'none'}} to={`/singleOrder/${services._id}`}>
            <Button style={{marginLeft:130,backgroundColor:'tomato',color:'black'}} size="large">Buy Now</Button>
            </Link>
         </CardActions>

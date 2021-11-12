@@ -4,10 +4,11 @@ import { Container, Typography,Button } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import { NavLink } from 'react-router-dom';
 import Footer from '../Footer/Footer';
-import {useLocation,useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 import useAuth from '../../Hook/useAuth';
 import Alert from '@mui/material/Alert';
 import CircularProgress from '@mui/material/CircularProgress';
+import Navbar from '../Navbar/Navbar';
 
 const Resgister = () => {
 
@@ -29,13 +30,11 @@ const Resgister = () => {
       e.preventDefault();
 
       return  registerUser(logindata.name,logindata.email, logindata.password,history);
-      
      }
-
 
     return (
         <div>
-            
+           <Navbar></Navbar>
           <Container>
         <Grid container spacing={2}>
           <Grid sx={{mt:10, ml:40}} item xs={12} md={6}>
@@ -74,8 +73,8 @@ const Resgister = () => {
               <Button type="submit" sx={{width: '75%',mt:2}} variant="contained">Sign up</Button>
            </form>}
            {isLoading && <CircularProgress />}
-           {user?.email &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="success">This is a success alert — check it out!</Alert>}
-           {error &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="error">This is an error alert — check it out!</Alert>}
+           {user?.email &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="success">Sign Up success</Alert>}
+           {error &&  <Alert style={{marginLeft: '70px',marginTop: '30px'}} severity="error">somethin is wrong. please try again</Alert>}
         
          </Grid>
            

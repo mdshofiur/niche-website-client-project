@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="mt-5" style={{ backgroundColor: '#F9F9FB' }} >
              
               <div className="d-flex justify-content-evenly p-5 ">
-              <div className="fs-3 fw-bold ">ToolsMaster</div>
+              <div className="fs-3 fw-bold ">LightMaster</div>
               <div className="pt-2">
                 <p>© 2020 All Rights Reserved. Developed By Assignment-12</p>
               </div>

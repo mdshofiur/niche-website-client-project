@@ -6,9 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
@@ -48,7 +46,7 @@ export default function Explore() {
         </CardContent>
         <CardActions>
            <h4 style={{marginLeft:30,color:'tomato'}}>${services.price}</h4>
-            <Link to={`/singleOrder/${services._id}`}>
+            <Link style={{textDecoration:'none'}} to={`/singleOrder/${services._id}`}>
            <Button style={{marginLeft:130,backgroundColor:'tomato',color:'black'}} size="large">Buy Now</Button>
            </Link>
         </CardActions>

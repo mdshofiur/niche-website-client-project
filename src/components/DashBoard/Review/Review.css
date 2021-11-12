@@ -1,0 +1,31 @@
+.add-title{
+    text-align: center;
+    padding:15px;
+    padding-top:20px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-section input {
+    padding: 5px;
+    margin:10px;
+    width: 500px;
+    margin-left: 280px;
+}
+.service-button{
+    background-color: tomato;
+    border: none;
+    padding:10px;
+    color: #fff;
+    font-weight: 600;
+}
+.textarea{
+    padding: 20px 0px;
+    margin:10px;
+    width: 500px;
+    margin-left: 280px;
+}

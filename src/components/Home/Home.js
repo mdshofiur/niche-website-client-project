@@ -1,6 +1,7 @@
 import React from 'react';
-import {Carousel} from 'react-bootstrap'
+import {Carousel,Container} from 'react-bootstrap'
 import Footer from '../Footer/Footer';
+import HomeReview from '../HomeReview/HomeReview';
 import Navbar from '../Navbar/Navbar';
 import Product from '../Product/Product';
 
@@ -41,7 +42,12 @@ const Home = () => {
              <Product></Product>
        </div>
 
-
+        <div className="me-4">
+        <h1 style={{textAlign: 'center',paddingTop: '20px',paddingBottom: '40px'}}><span style={{backgroundColor:'black',padding:'5px 20px',borderRadius:'5px',color:'white'}}>Clients Says</span></h1>
+          <Container>
+          <HomeReview></HomeReview>
+          </Container>
+        </div>
 
      <Footer></Footer>
         </div>
