@@ -14,14 +14,14 @@ const Home = () => {
             <div className="slider">
         <Carousel>
         <Carousel.Item interval={3000}>
-        <img className="d-block  w-100" src="https://cdn.shadesoflight.com/media/W1siZiIsIjIwMjEvMDYvMDIvMTMvNTMvMzEvNzc5L1NsaWRlc2hvd19KdW5lMjEuanBnIl0sWyJwIiwib3B0aW0iXV0/Slideshow_June21.jpg?sha=3ddac02784e19527" alt="First slide"/>
+        <img className="d-block  w-100" src="https://i.ibb.co/D7ZG9g2/1.jpg" alt="First slide"/>
         <Carousel.Caption>
         <h1>Seating That's</h1>
         <h1>Guest Ready</h1>
       </Carousel.Caption>
       </Carousel.Item>
      <Carousel.Item>
-     <img className="d-block w-100" src="https://cdn.shadesoflight.com/media/W1siZiIsIjIwMjEvMTAvMjcvMTAvMjYvMTQvNDIzL1NsaWRlc2hvd19PY3QyMS5qcGciXSxbInAiLCJvcHRpbSJdXQ/Slideshow_Oct21.jpg?sha=4add87de9fa33606" alt="Second slide"/>
+     <img className="d-block w-100" src="https://i.ibb.co/BLWVS9P/2.jpg" alt="Second slide"/>
       <Carousel.Caption>
       <h1>Exclusive new designs.</h1>
       <h1>100's of designer patterns</h1>
@@ -29,7 +29,7 @@ const Home = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-     <img className="d-block w-100" src="https://cdn.shadesoflight.com/media/W1siZiIsIjIwMjEvMTAvMDcvMTAvMjYvMjEvMzQvU2xpZGVzaG93X09jdDIxLmpwZyJdLFsicCIsIm9wdGltIl1d/Slideshow_Oct21.jpg?sha=20facf6b66411a28" alt="Second slide"/>
+     <img className="d-block w-100" src="https://i.ibb.co/J5X3w9S/3.jpg" alt="Second slide"/>
       <Carousel.Caption>
       <h1>The New Look Of Excellence.</h1>
       <h1>Colors on fixtures and lamps</h1>

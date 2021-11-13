@@ -7,7 +7,7 @@ const MyOrders = () => {
     const {user} = useAuth()
 
     useEffect(() => {
-        fetch(`http://localhost:5000/singleorder/${user.email}`)
+        fetch(`https://intense-ridge-65532.herokuapp.com/singleorder/${user.email}`)
         .then(res => res.json())
         .then(data =>serorder(data))
     },[user.email])
@@ -16,7 +16,7 @@ const MyOrders = () => {
     const HandleDetele = id => {
         const proceed = window.confirm("Are Sure to Delete?")
         if(proceed){
-          const url = `http://localhost:5000/singleorder/${id}`;
+          const url = `https://intense-ridge-65532.herokuapp.com/singleorder/${id}`;
           fetch(url, {
            method: 'DELETE',
           })

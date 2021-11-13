@@ -9,7 +9,7 @@ const { register, handleSubmit,reset } = useForm();
 
 
     const onSubmit = data => {
-        axios.post('http://localhost:5000/review',data)
+        axios.post('https://intense-ridge-65532.herokuapp.com/review',data)
         .then(res => {
             if(res.data.insertedId) {
                 alert("Sucessfully added")

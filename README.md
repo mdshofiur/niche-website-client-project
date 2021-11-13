@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+Website Name: LightMaster.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Github Private Client-Side Rep Link: https://github.com/programming-hero-web-course-4/niche-website-client-side-mdshofiur
 
-## Available Scripts
+Github Private Server-Side Rep Link: https://github.com/programming-hero-web-course-4/niche-website-server-side-mdshofiur
 
-In the project directory, you can run:
+Firebase Client-side Live Link: https://assignment-12-54e26.web.app/
 
-### `npm start`
+Which technology I'm used for this asssignment: -
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+React
+React Bootstrap
+React Router
+React icons
+Firebase Authentication
+Firebase Deploy
+Heroku
+NodeJs, ExpressJS
+Mongodb Atlas
+some features:-
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* If a user is logged in, he/she will see another option on the header is called Dashboard and inside that dashboard a normal user (not an admin) will see options like pay,My Orders, Review, Logout. Based on your website idea, you can change the name of these menu items. The pay page will say: Payment system coming soon.
 
-### `npm test`
+* If an admin logs in, he/she will not see the options that a normal user sees. Insted an admin will see Manage All Orders, Add A Product, Make Admin, Manage Products Logout. Based on your website idea, you can change the name of these menu items. Details about Manage all orders or Manage products will be provided later.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* On the Review page, users should be able to add a review and that review will appear on the home age. Right now you will see every review on the home page. There is no limit on the numbers of reviews or the order of the review.
 
-### `npm run build`
+* Implement email/ password (login/Register) based login system. The registration form should have the name and once a user is logged in, the user name, and the logout button should appear on the header which will log out the user once clicked. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* At the time of adding review, you may add an input field to add ratings (a number between 0-5). Based on the rating, display rating star on each reviews in the home page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I tried to create a good-looking project for the assignment. but don't know how look like it is. But, I tried.

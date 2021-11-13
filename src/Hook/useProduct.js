@@ -6,7 +6,7 @@ const useProduct = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/product')
+        fetch('https://intense-ridge-65532.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setservice(data));
     }, [])

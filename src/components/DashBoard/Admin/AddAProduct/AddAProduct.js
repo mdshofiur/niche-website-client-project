@@ -9,7 +9,7 @@ const { register, handleSubmit,reset } = useForm();
 
 
     const onSubmit = data => {
-        axios.post('http://localhost:5000/product',data)
+        axios.post('https://intense-ridge-65532.herokuapp.com/product',data)
         .then(res => {
             if(res.data.insertedId) {
                 alert("Sucessfully added")

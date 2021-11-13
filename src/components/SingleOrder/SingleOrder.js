@@ -14,7 +14,7 @@ const SingleOrder = () => {
     const {user} = useAuth();
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/product/${serviceId}`)
+        fetch(`https://intense-ridge-65532.herokuapp.com/product/${serviceId}`)
         .then(res => res.json())
         .then(data => setservice(data) )
     },[serviceId])
@@ -25,7 +25,7 @@ const SingleOrder = () => {
         data.status = "pending";
         data.LogEmail = user?.email;
         data.time = new Date().toLocaleDateString();
-        axios.post('http://localhost:5000/singleorder',data)
+        axios.post('https://intense-ridge-65532.herokuapp.com/singleorder',data)
         .then(res => {
            if(res.data.insertedId) {
                alert("Sucessfully added")

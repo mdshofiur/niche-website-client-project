@@ -17,7 +17,7 @@ export default function HomeReview() {
 const [value,setValue] = useState([])
 
    useEffect(() => {
-    fetch('http://localhost:5000/review')
+    fetch('https://intense-ridge-65532.herokuapp.com/review')
     .then(response => response.json())
     .then(data => setValue(data))
    },[])

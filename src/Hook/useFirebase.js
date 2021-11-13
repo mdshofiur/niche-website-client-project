@@ -90,7 +90,7 @@ useEffect(()=>{
 
      const saveUser = (email,displayName) => {
       const user = {email,displayName};
-       fetch('http://localhost:5000/users',{
+       fetch('https://intense-ridge-65532.herokuapp.com/users',{
          method: "POST",
          headers:{ 
            'content-type': 'application/json'
@@ -102,7 +102,7 @@ useEffect(()=>{
    
 
     useEffect(()=>{
-          fetch(`http://localhost:5000/user/admin/${user.email}`)
+          fetch(`https://intense-ridge-65532.herokuapp.com/user/admin/${user.email}`)
           .then(res => res.json())
           .then(data => setadmin(data.admin))
     },[user.email])

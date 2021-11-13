@@ -6,7 +6,7 @@ const ManageAllOrders = () => {
     const [approve,setapprove] = useState(['pending'])
    
     useEffect(() => {
-        fetch("http://localhost:5000/singleorder")
+        fetch("https://intense-ridge-65532.herokuapp.com/singleorder")
         .then(res => res.json())
         .then(data =>serorder(data))
     },[approve])
@@ -17,7 +17,7 @@ const ManageAllOrders = () => {
     const HandleDetele = id => {
       const proceed = window.confirm("Are Sure to Delete?")
       if(proceed){
-        const url = `http://localhost:5000/singleorder/${id}`;
+        const url = `https://intense-ridge-65532.herokuapp.com/singleorder/${id}`;
         fetch(url, {
          method: 'DELETE',
         })
@@ -34,7 +34,7 @@ const ManageAllOrders = () => {
     
 
     const HandleUpdate = (id) => {
-      fetch(`http://localhost:5000/singleorder/${id}`,{
+      fetch(`https://intense-ridge-65532.herokuapp.com/singleorder/${id}`,{
         method: 'PUT',
       })
       .then(res => res.json()
