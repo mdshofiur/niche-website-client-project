@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const AllOrders = () => {
+const ManageAllOrders = () => {
      
     const [order,serorder] = useState([])
     const [approve,setapprove] = useState(['pending'])
@@ -82,4 +82,4 @@ const AllOrders = () => {
     );
 };
 
-export default AllOrders;
+export default ManageAllOrders;

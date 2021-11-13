@@ -155,7 +155,7 @@ function DashBoard(props) {
         <Route path={`${path}/ManageProducts`}>
         <ManageProducts></ManageProducts>
         </Route>
-      </Switch>
+        </Switch>
 
         </Typography>
       </Box>

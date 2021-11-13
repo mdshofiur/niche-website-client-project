@@ -20,11 +20,11 @@ const Product = () => {
         <div>
            <Container>
       <Box sx={{ width: '100%',mt:5,mb:5}}>
-        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+        <Grid container rowSpacing={1} columnSpacing={{xs:12, sm: 12, md:3,lg:4,xl:4 }}>
 
    
           {  
-               Service.slice(0,6).map(services => <Grid item xs={4}
+               Service.slice(0,6).map(services => <Grid item lg={4} xl={4} sm={12} md={4} xs={12}
                key={services._id}> 
                
                <Card sx={{ maxWidth: 330,my:2 }}>
